@@ -1,0 +1,70 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+  margin: 0;
+}
+
+.social-buttons {
+  display: flex;
+  gap: 12px;
+}
+
+.social-buttons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  font-size: 14px;
+  color: white;
+  border-radius: 20px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.twitter {
+  background-color: #1da1f2;
+}
+
+.twitter:hover {
+  background-color: #0d8ecf;
+}
+
+.facebook {
+  background-color: #3b5998;
+}
+
+.facebook:hover {
+  background-color: #2d4373;
+}
+
+.linkedin {
+  background-color: #0077b5;
+}
+
+.linkedin:hover {
+  background-color: #005a8d;
+}
+
+.reddit {
+  background-color: #ff4500;
+}
+
+.reddit:hover {
+  background-color: #e03e00;
+}
+
+.telegram {
+  background-color: #0088cc;
+}
+
+.telegram:hover {
+  background-color: #007ba7;
+}
+
+.social-buttons i {
+  margin-right: 8px;
+}

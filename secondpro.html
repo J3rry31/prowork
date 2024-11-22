@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Jerry's Profile Card</title>
+  <script src="https://kit.fontawesome.com/f24ef51722.js" crossorigin="anonymous"></script>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+     }
+
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+    
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 20px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      padding: 30px;
+      width: 350px;
+      position: relative;
+    }
+
+    .card .profile-img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      border: 4px solid #fff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      position: absolute;
+      top: -50px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .card h2 {
+      font-size: 20px;
+      color: purple;
+      margin-top: 60px;
+    }
+
+    .card h3 {
+      font-size: 14px;
+      color: #666;
+      margin: 8px 0;
+    }
+
+    .card .location {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #666;
+      font-size: 14px;
+      margin: 10px 0;
+    }
+
+    .card .location i {
+      margin-right: 5px;
+      font-size: 16px;
+    }
+
+    .card .stats {
+      display: flex;
+      justify-content: space-around;
+      margin: 20px 0;
+    }
+
+    .card .stats div {
+      text-align: center;
+    }
+
+    .card .stats h4 {
+      font-size: 16px;
+      color: #333;
+      margin-bottom: 5px;
+    }
+
+    .card .stats p {
+      font-size: 12px;
+      color: #666;
+    }
+
+    .card .social-icons {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin: 20px 0;
+    }
+
+    .card .social-icons a {
+      font-size: 18px;
+      color: #666;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .card .social-icons a:hover {
+      color: #2575fc;
+    }
+
+    .card .buttons {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .card .button {
+      border: none;
+      padding: 10px 20px;
+      font-size: 14px;
+      border-radius: 20px;
+      cursor: pointer;
+      transition:  0.3s ease;
+    }
+
+    .button-primary {
+      background: #2575fc;
+      color: #fff;
+    }
+
+    .button-primary:hover {
+      background: #1a5fc0;
+    }
+
+    .button-secondary {
+      background: #ff6a5c;
+      color: #fff;
+    }
+
+    .button-secondary:hover {
+      background: #e05546;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="Capture.PNG" alt="Profile" class="profile-img">
+    <h2>Jeremiah Praise Felix</h2>
+    <h3>Front-end Developer from <strong>Opolo Innovation Hub </strong></h3>
+    <div class="location">
+      <i class="fa-solid fa-location-dot"></i>
+      <span>Istanbul, Turkey</span>
+    </div>
+    <div class="stats">
+      <div>
+        <h4>1598</h4>
+        <p>Followers</p>
+      </div>
+      <div>
+        <h4>65</h4>
+        <p>Following</p>
+      </div>
+      <div>
+        <h4>123</h4>
+        <p>Articles</p>
+      </div>
+      <div>
+        <h4>85</h4>
+        <p>Works</p>
+      </div>
+    </div>
+    <div class="social-icons">
+      <i class="fa-brands fa-square-facebook"></i>
+      <i class="fa-brands fa-square-instagram"></i>
+      <i class="fa-brands fa-square-twitter"></i>
+      <i class="fa-brands fa-github"></i>
+      <i class="fa-solid fa-link"></i>
+      <i class="fa-brands fa-behance"></i>
+    </div>
+    <div class="buttons">
+      <button class="button button-primary">Message</button>
+      <button class="button button-secondary">Follow</button>
+    </div>
+  </div>
+</body>
+</html>

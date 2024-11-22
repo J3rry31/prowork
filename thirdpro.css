@@ -1,0 +1,142 @@
+body {
+	font-family: 'Arial', sans-serif;
+	margin: 0;
+  padding: 0;
+  }
+  
+  .container {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	gap: 20px;
+	padding: 40px;
+  }
+  
+  .card {
+	background: #fff;
+	border-radius: 10px;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+	width: auto;
+	padding: 30px;
+	text-align: center;
+  /* height: 90vh; */
+  }
+  
+  .gradient {
+	background: linear-gradient(135deg, #a749f1, #ff5994);
+	color: #fff;
+  margin-top: -54px;
+  height: 40vh;
+  }
+  
+  .card h2 {
+	margin: 10px 0;
+	font-size: 1.5em;
+  }
+  
+  .subtitle {
+	font-size: 1em;
+	color: #777;
+  }
+  
+  .gradient .subtitle {
+	color: #fff;
+  }
+  
+  .social-icons {
+	margin: 15px 0;
+  }
+  
+  .social-icons i {
+	margin: 0 10px;
+	font-size: 1.2em;
+	color: #555;
+	cursor: pointer;
+  }
+  
+  .gradient .social-icons i {
+	color: white;
+  }
+  
+  .social-icons i:hover {
+	color: #007bff;
+  }
+  
+  .description {
+	font-size: 0.9em;
+	color: #666;
+	line-height: 1.5;
+  }
+  .gradient .description {
+	color: #fff;
+  }
+  
+  .profile-img,
+  .thumbnail {
+	width: 100%;
+	height: auto;
+	border-radius: 5px;
+	margin-bottom: 15px;
+  }
+  
+  /* button style */
+  .btn {
+	display: flex;
+	background: #007bff;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	font-size: 0.9em;
+	cursor: pointer;
+	text-transform: uppercase;
+  }
+  
+  .btn:hover {
+	background: #0056b3;
+  }
+
+  /* .flex-box {
+    display: flex;
+    flex-wrap: wrap;
+    /* line-height: 50px;
+    justify-content: center; */
+ 
+
+  .heading1 {
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 50px;
+    box-sizing: border-box;
+    background: linear-gradient(135deg,#b25fff,#feb47b);
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  /* }
+  .heading1::before { 
+    content:'';
+    position: absolute;
+    bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 200px;
+      border-radius: 50%;
+      transform: scaleX(1);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+
+  } */
+
+  /* .wave-container::after {
+    content: '';
+    position: absolute;
+    bottom: -80px;
+    left: 0;
+    width: 100%;
+    height: 150px;
+    border-radius: 50%;
+    transform: scaleX(2);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    } */
+
+  
+

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Share Buttons with Icons</title>
+  <!-- Link to Font Awesome for icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <style>
+    /* body css */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f6f9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    
+    .share-buttons {
+      display: flex;
+      gap: 10px;
+    }
+
+    .share-button {
+      align-items: center;
+      gap: 8px;
+      padding: 10px 20px;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 14px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .share-button.twitter {
+      background-color: #1DA1F2;
+    }
+
+    .share-button.twitter:hover {
+      background-color: #0d8adf;
+    }
+
+    .share-button.facebook {
+      background-color: #4267B2;
+    }
+
+    .share-button.facebook:hover {
+      background-color: #365899;
+    }
+
+    .share-button.linkedin {
+      background-color: #0077B5;
+    }
+
+    .share-button.linkedin:hover {
+      background-color: #005983;
+    }
+
+    .share-button.reddit {
+      background-color: #FF4500;
+    }
+
+    .share-button.reddit:hover {
+      background-color: #e03c00;
+    }
+
+    .share-button.telegram {
+      background-color: #FFCC00;
+      color: #333;
+    }
+
+    .share-button.telegram:hover {
+      background-color: #d6ad00;
+    }
+
+    .share-button i {
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <div class="share-buttons">
+    <a href="https://x.com/felix_prai66213" class="share-button twitter">
+      <i class="fab fa-twitter"></i> Tweet
+    </a>
+    <a href="https://web.facebook.com/profile.php?id=61563839471796" class="share-button facebook">
+      <i class="fab fa-facebook-f"></i> Share
+    </a>
+    <a href="https://www.linkedin.com/in/jeremiah-praise-felix-018221312/" class="share-button linkedin">
+      <i class="fab fa-linkedin-in"></i> Share
+    </a>
+    <a href="#" class="share-button reddit">
+      <i class="fab fa-reddit-alien"></i> Share
+    </a>
+    <a href="#" class="share-button telegram">
+      <i class="fab fa-telegram-plane"></i> Share
+    </a>
+  </div>
+</body>
+</html>
